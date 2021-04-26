@@ -3,13 +3,14 @@ package data
 import (
 	"database/sql"
 	"errors"
+	"regexp"
+	"testing"
+
 	"github.com/DATA-DOG/go-sqlmock"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
-	"regexp"
-	"testing"
 )
 
 type SuiteWorker struct {
