@@ -2,7 +2,7 @@
 
 ## Description
 
-##### Full Stack Application for enterprise
+##### Application for enterprise
 
 |Path|Method|Description|
 |:---:|:---:|:---:|
